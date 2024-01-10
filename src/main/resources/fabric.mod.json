@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "itemprotection",
+  "version": "${version}",
+  "name": "ItemProtection",
+  "description": "It prevents using the item to mine or attack",
+  "authors": [
+    "_PrometheuZ_"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/item-protection"
+  },
+  "license": "MIT",
+  "icon": "assets/itemprotection/icon.png",
+  "environment": "*",
+  "entrypoints": {
+
+  },
+  "mixins": [
+    "itemprotection.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
